@@ -1,2 +1,2 @@
-# inteligencia-artificial-nuevo
-inteligencia artificial
+# proyecto-IA-
+proyecto

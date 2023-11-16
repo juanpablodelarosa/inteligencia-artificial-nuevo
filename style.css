@@ -1,0 +1,213 @@
+/*ESTILOS GLOBALES*/
+@import url(./swiper.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+body {
+    background-color: rgb(237, 233, 233);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button {
+    cursor: pointer;
+}
+
+/*ESTILOS HEADER*/
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+header img {
+    width: 50;
+
+}
+
+header ul,
+footer ul {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+header button {
+    padding: 10px 20px;
+}
+
+header button:hover {
+    background-color: aqua;
+}
+
+/*ESTILOS MAIN*/
+
+/* BANNER */
+.banner {
+    width: 100%;
+    height: 700px;
+    background-image: url(./muñeco.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*CARDS */
+.cards {
+    display: flex;
+
+}
+
+.card {
+    width: 300px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 2);
+    cursor: default;
+    transition: all 400ms ease;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 20px;
+}
+
+article.card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 4);
+    transform: translateY(-3%);
+}
+
+.card img {
+    width: 300px;
+
+}
+
+.conceptos {
+    height: 500px;
+    width: 70%;
+    padding: 50px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{ padding: 10px 20px;
+  
+}
+button:hover{
+    background: #2fb4cc;
+  color: #fff;
+ }
+
+
+
+
+/*ESTILOS FOOTER*/
+footer {
+    background-image: linear-gradient(90deg, rgb(179, 178, 178), white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    
+}
+
+footer i {
+    font-size: 48px;
+    color: white;
+}
+
+.cardFooter {
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    width: 270px;
+    margin: 20px;
+  }
+  
+  .cardFooter i {
+    font-size: 40px;
+  }
+  
+  .cardFooter .social-link1,.cardFooter .social-link2,.cardFooter .social-link3,.cardFooter .social-link4 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    color: whitesmoke;
+    font-size: 24px;
+    text-decoration: none;
+    transition: 0.25s;
+    border-radius: 50%;
+  }
+  
+
+  .cardFooter .social-link1:hover {
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    animation: bounce_613 0.4s linear;
+  }
+  
+
+  
+  .cardFooter .social-link3:hover {
+    background-color: #3b5998;
+    animation: bounce_613 0.4s linear;
+  }
+  
+  .cardFooter .social-link4:hover {
+    background-color: #12a50b;
+    animation: bounce_613 0.4s linear;
+  }
+  
+  @keyframes bounce_613 {
+    40% {
+      transform: scale(1.4);
+    }
+  
+    60% {
+      transform: scale(0.8);
+    }
+  
+    80% {
+      transform: scale(1.2);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }

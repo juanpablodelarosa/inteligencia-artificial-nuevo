@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--ANIMATE STYLE-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>flex-box</title>
+
+</head>
+
+<body>
+    <header>
+        <i class="fa-solid fa-code animate__animated animate__bounce"></i>
+        <nav>
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">service</a></li>
+            </ul>
+        </nav>
+        <button> <i class="fa-solid fa-person animate__animated animate__bounce"></i>
+            Iniciar sesion</button>
+    </header>
+    <main>
+
+        <!--         <section>
+            <img src="./muñeco.jpg" alt="">
+        </section> -->
+        <section class="cards">
+            <article class="card">
+                <div>
+                    <i></i>
+                    <img src="./nube.jpg" alt="nube">
+                </div>
+                <h2>Nube.</h2>
+                <p>La migración hacia la nube es un cambio de paradigma muy
+                    potente.</p>
+                <a target="_blank"
+                    href="https://www.eude.es/blog/herramientas-inteligencia-artificial-productividad-eude/">
+                    <button class="button">
+                        boton
+                    </button>
+                </a>
+
+            </article>
+            <article class="card">
+                <div>
+                    <i></i>
+                    <img src="./inteligencia.jpg" alt="nube">
+                </div>
+                <h2>Realidad Virtual</h2>
+                <p>La realidad virtual (VR) es una tecnología que permite a
+                    los usuarios experimentar un mundo generado por
+                    computadora en un ambiente inmersivo.</p>
+                <button class="button"><a target="_blank"
+                        href="https://www.iberdrola.com/innovacion/realidad-virtual">boton</a></button>
+
+            </article>
+            <article class="card">
+                <div>
+                    <i></i>
+                    <img src="./mano.webp" alt="nube">
+                </div>
+                <h2>La inteligencia artificial.</h2>
+                <p>El vertiginoso y exponencial desarrollo de los más
+                    diversos sistemas de Inteligencia Artificial (IA)
+                    plantea múltiples desafíos: económicos, políticos,
+                    sociales, laborales, culturales y filosóficos.</p>
+                <button class="button">boton</button>
+
+            </article>
+        </section>
+
+
+        <div>
+            <img class="conceptos" src="./conceptos.jpeg" alt="conceptos">
+            <h2 class="titulo">Conceptos claves para entender la
+                Inteligencia Artificial.</h2>
+            <p class="texto">La AI tiene la capacidad de emular la mente
+                humana, desarrollando capacidades que hasta hace poco sólo
+                estaban alcance del cerebro humano como la creatividad o el
+                análisis complejo en base de datos incompletos. </p>
+            <p>Una vez que conocemos los conceptos básicos de la AI, es
+                fácil entender por qué supone una revolución. La AI puede
+                realizar todo tipo de tareas. Optimizar el consumo de
+                energía en vivo o realizar controles de calidad y hacer
+                ajustes mientras la producción está en progreso, son sólo
+                ejemplos del potencial que ofrece.</p>
+        </div>
+
+        <section class="carrusel">
+            <!-- Swiper -->
+
+            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="swiper-zoom-container">
+                            <img src="img1.png" />
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-zoom-container">
+                            <img src="img2.jpg" />
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-zoom-container">
+                            <img src="img3.webp" />
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-zoom-container">
+                            <img src="img4.png" />
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-zoom-container">
+                            <img src="img5.jpg" />
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-zoom-container">
+                            <img src="img6.webp" />
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-zoom-container">
+                            <img src="img7.jpg" />
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-zoom-container">
+                            <img src="img8.webp" />
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-zoom-container">
+                            <img src="img9.jpg" />
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                zoom: true,
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+            });
+        </script>
+
+
+    </main>
+    <footer>
+
+        <div class="cardFooter">
+            <a class="social-link1" target="_blank" href="https://www.instagram.com/">
+                <i class="fa-brands fa-instagram "></i>
+            </a>
+            <a class="social-link3" target="_blank" href="https://www.facebook.com/">
+                <i class="fa-brands fa-facebook-f "></i>
+            </a>
+            <a class="social-link4" target="_blank" href="https://web.whatsapp.com/">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+        </div>
+        <p>todos los derechos reservados</p>
+    </footer>
+</body>
+
+</html>
